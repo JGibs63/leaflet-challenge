@@ -29,23 +29,14 @@ function createMap(quakeMarkers) {
     collapsed: false
   }).addTo(map);
 
-  var colors = [
-    "green",
-    "greenyellow",
-    "yellow",
-    "orange",
-    "orangered",
-    "red"
-  ];
-
-  var labels = [
-    "-10 - 10",
-    "10 - 30",
-    "30 - 50",
-    "50 - 70",
-    "70 - 90",
-    "90 +"
-  ]
+  function chooseColor(depth) {
+    if (depth < 10) return "green";
+    else if (depth < 30) return "greenyellow";
+    else if (depth < 50) return "yellow";
+    else if (depth < 70) return "orange";
+    else if (depth < 90) return "orangered";
+    else return "red";
+  }
 
   // Add legend
   var legend = L.control({ position: "bottomright" });
