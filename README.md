@@ -4,5 +4,5 @@ Using JavaScript and a GeoJSON source (https://earthquake.usgs.gov/earthquakes/f
 You can find a link to the visual map here: file:///Users/joshuagibson/Desktop/ClassWork/VU-VIRT-DATA-PT-08-2023-U-LOLC/lesson/15-Mapping/leaflet-challenge/Data/index.html
 
 Sources cited:
-For adding the legend correctly into the js file and CSS file, LA Angel (slack username amilla) helped me and referred me to this link for the correct syntax: https://leafletjs.com/examples/choropleth/
-Additionally, I used the Xpert Learning Assistant AI system in BootCampSpot to help me find detailed syntax errors (indentation, missing brackets, misspelled variables, etc).
+For adding the legend correctly into the js file and CSS file, LA Angel (slack username amilla) helped me and referred me to this link for the correct syntax: https://leafletjs.com/examples/choropleth/ (lines 42-51)
+Additionally, I used the Xpert Learning Assistant AI system in BootCampSpot to help me correct syntax errors (indentation, missing brackets, misspelled variables, etc).
